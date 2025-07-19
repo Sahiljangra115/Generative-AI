@@ -17,5 +17,5 @@ llm = ChatOpenAI(
 )
 
 # Try a simple message
-response = llm.invoke("What is the capital of india")
+response = llm.invoke("What is my name")
 print(response.content)
