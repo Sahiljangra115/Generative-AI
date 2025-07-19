@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -8,3 +9,6 @@ wheels/
 
 # Virtual environments
 .venv
+=======
+.env
+>>>>>>> 8c01053 (initial commit try .gitignore)

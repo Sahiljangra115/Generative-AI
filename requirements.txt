@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 annotated-types==0.7.0
 anthropic==0.57.1
 anyio==4.9.0
@@ -70,3 +71,31 @@ typing-inspection==0.4.1
 uritemplate==4.2.0
 urllib3==2.5.0
 zstandard==0.23.0
+=======
+# LangChain Core
+langchain
+langchain-core
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+>>>>>>> 8c01053 (initial commit try .gitignore)
