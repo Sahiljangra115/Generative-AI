@@ -4,6 +4,7 @@ import os
 
 # Load API key from .env
 load_dotenv()
+
 api_key = os.getenv("OPENROUTER_API_KEY")
 
 # Set the base URL for OpenRouter
