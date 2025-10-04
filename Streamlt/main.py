@@ -61,8 +61,8 @@ if static_prompt:
             # Create ChatOpenAI instance for OpenRouter (works with Qwen and other models)
             model = ChatOpenAI(
                 model="qwen/qwen3-30b-a3b:free",  # Use the selected model
-                openai_api_key=api_key,
-                openai_api_base="https://openrouter.ai/api/v1",
+                api_key=api_key,
+                base_url="https://openrouter.ai/api/v1",
                 temperature=temperature
             )
             
