@@ -9,3 +9,16 @@ wheels/
 # Virtual environments
 .venv
 .env
+# Auto-added by cleanup script
+*.pyc
+.DS_Store
+.claude/
+.gemini/
+.playwright-mcp/
+graphify-out/
+backend/graphify-out/
+venv/
+env/
+node_modules/
+a.out
+*.log
