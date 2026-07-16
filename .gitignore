@@ -22,3 +22,7 @@ env/
 node_modules/
 a.out
 *.log
+
+# Automatically ignored by cleanup script
+.git_backup/
+*.git_backup/
